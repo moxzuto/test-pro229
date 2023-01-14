@@ -1,0 +1,86 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.container {
+  margin: 0px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .ice-cream {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768ppx) {
+  .ice-cream {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ice-cream {
+    max-width: 1200px;
+  }
+}
+
+.ice-cream__section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ice-cream__label {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #131313;
+}
+
+.ice-cream__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #131313;
+}/*# sourceMappingURL=index.css.map */

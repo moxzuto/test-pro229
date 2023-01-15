@@ -1,25 +1,19 @@
-
 .ice-cream {
+  background-image: url(./Backgroud_mobile.jpg);
+  display: flex;
 
-    display: flex;
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
 
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
 
-    @media screen and (min-width: 480px) {
-        max-width: 480px;
-      }
-      
-      @media screen and (min-width: 768px) {
-        max-width: 768px;
-      }
-    
-    @media screen and (min-width: 1200px) {
-        max-width: 1200px;
-    }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 }
-
-
-
-
 
 .ice-cream__section {
   display: flex;
@@ -49,4 +43,26 @@
   text-transform: uppercase;
 
   color: #131313;
+}
+
+.ice-cream__products {
+  width: 370px;
+  height: 536px;
+  background-color: #aec6a5;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+
+.ice-cream__products::before {
+  content: url(./kelsey-curtis-G5ZenftPPOA-unsplash\ 2.png);
+  width: 300px;
+  height: 300px;
+  color: #9cbe8f;
+}
+
+.ice-cream__products::after {
+  width: 300px;
+  height: 300px;
+  color: red;
+  position: absolute;
 }
